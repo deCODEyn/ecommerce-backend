@@ -17,12 +17,7 @@
 		"noImplicitAny": true,
 		"moduleResolution": "node16",
 		"strictNullChecks": true,
-		"sourceMap": true,
-		//Ajuste de imports
-		"baseUrl": "./src",
-		"paths": {
-			"@/*": ["*"]
-		}
+		"sourceMap": true
 	},
 	"include": ["src/**/*.ts", "src/env.ts"],
 	"exclude": ["node_modules"]

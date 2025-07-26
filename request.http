@@ -1,6 +1,12 @@
 # Variables
-@baseUrl = http://localhost:3333
+@baseUrl = http://localhost:3333/api
 
 # Health check
 # @name healthCheck
 GET {{baseUrl}}/health
+
+
+###
+# Get product list
+# @name getProductsList
+GET {{baseUrl}}/products
